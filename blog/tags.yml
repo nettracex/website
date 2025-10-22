@@ -1,0 +1,29 @@
+announcement:
+  label: Announcement
+  permalink: /blog/tags/announcement
+  description: Important announcements and updates
+
+release:
+  label: Release
+  permalink: /blog/tags/release
+  description: New releases and version updates
+
+tutorial:
+  label: Tutorial
+  permalink: /blog/tags/tutorial
+  description: Step-by-step tutorials and guides
+
+network:
+  label: Network
+  permalink: /blog/tags/network
+  description: Network diagnostics and troubleshooting
+
+development:
+  label: Development
+  permalink: /blog/tags/development
+  description: Development updates and technical insights
+
+community:
+  label: Community
+  permalink: /blog/tags/community
+  description: Community highlights and contributions
