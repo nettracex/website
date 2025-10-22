@@ -1,4 +1,4 @@
-# NetTraceX Documentation Website
+# <img src="https://raw.githubusercontent.com/nettracex/website/refs/heads/main/static/img/favicon.svg" alt="NetTraceX Logo" width="28" style="vertical-align: middle; margin-right: 8px;"> NetTraceX Documentation Website
 
 This is the documentation website for [NetTraceX](https://github.com/nettracex/nettracex-tui), a comprehensive network diagnostic toolkit built with Go, featuring a beautiful terminal user interface powered by the Bubble Tea framework.
 
