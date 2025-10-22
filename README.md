@@ -87,10 +87,3 @@ NetTraceX is licensed under the MIT License. See [LICENSE](https://github.com/ne
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](./docs/guides/contributing.md) for details on how to contribute to NetTraceX.
-
-## Author
-
-**LAVAN J V** - Core Developer & Maintainer
-- GitHub: [@jvlavan](https://github.com/jvlavan)
-- LinkedIn: [lavanjv](https://www.linkedin.com/in/lavanjv/)
-- Email: lavanjv@example.com
