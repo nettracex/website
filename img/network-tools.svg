@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#f0f9ff" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Network topology -->
+  <circle cx="100" cy="100" r="8" fill="#2563eb"/>
+  <circle cx="60" cy="60" r="4" fill="#10b981"/>
+  <circle cx="140" cy="60" r="4" fill="#10b981"/>
+  <circle cx="60" cy="140" r="4" fill="#10b981"/>
+  <circle cx="140" cy="140" r="4" fill="#10b981"/>
+  
+  <!-- Connections -->
+  <line x1="60" y1="60" x2="100" y2="100" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="60" x2="100" y2="100" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="140" x2="100" y2="100" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="140" x2="100" y2="100" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tool icons -->
+  <text x="100" y="50" text-anchor="middle" fill="#2563eb" font-family="Arial, sans-serif" font-size="12" font-weight="bold">PING</text>
+  <text x="150" y="100" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DNS</text>
+  <text x="100" y="170" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">TRACE</text>
+  <text x="50" y="100" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SSL</text>
+</svg>
