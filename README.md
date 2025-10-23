@@ -76,7 +76,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Project Links
 
 - **Main Repository**: [nettracex](https://github.com/nettracex/nettracex-tui)
-- **Documentation**: [nettracex-tui.github.io](https://nettracex.net)
+- **Documentation**: [nettracex website](https://nettracex.net)
 - **Issues**: [GitHub Issues](https://github.com/nettracex/nettracex-tui/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/nettracex/nettracex-tui/discussions)
 
