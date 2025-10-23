@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://nettracex-tui.github.io/blog</id>
+    <id>https://nettracex.net/blog</id>
     <title>NetTraceX Blog</title>
     <updated>2024-01-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://nettracex-tui.github.io/blog"/>
+    <link rel="alternate" href="https://nettracex.net/blog"/>
     <subtitle>NetTraceX Blog</subtitle>
-    <icon>https://nettracex-tui.github.io/img/favicon.svg</icon>
+    <icon>https://nettracex.net/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[NetTraceX v1.0.0 Release]]></title>
-        <id>https://nettracex-tui.github.io/blog/release-v1-0-0</id>
-        <link href="https://nettracex-tui.github.io/blog/release-v1-0-0"/>
+        <id>https://nettracex.net/blog/release-v1-0-0</id>
+        <link href="https://nettracex.net/blog/release-v1-0-0"/>
         <updated>2024-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're thrilled to announce the first stable release of NetTraceX! After months of development and testing, we're proud to present a comprehensive network diagnostic toolkit that combines powerful functionality with an intuitive terminal interface.]]></summary>
         <content type="html"><![CDATA[<p>We're thrilled to announce the first stable release of NetTraceX! After months of development and testing, we're proud to present a comprehensive network diagnostic toolkit that combines powerful functionality with an intuitive terminal interface.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new-in-v100">What's New in v1.0.0<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#whats-new-in-v100" class="hash-link" aria-label="Direct link to What's New in v1.0.0" title="Direct link to What's New in v1.0.0" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-core-features">🚀 Core Features<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#-core-features" class="hash-link" aria-label="Direct link to 🚀 Core Features" title="Direct link to 🚀 Core Features" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new-in-v100">What's New in v1.0.0<a href="https://nettracex.net/blog/release-v1-0-0#whats-new-in-v100" class="hash-link" aria-label="Direct link to What's New in v1.0.0" title="Direct link to What's New in v1.0.0" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-core-features">🚀 Core Features<a href="https://nettracex.net/blog/release-v1-0-0#-core-features" class="hash-link" aria-label="Direct link to 🚀 Core Features" title="Direct link to 🚀 Core Features" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Complete Network Tool Suite</strong>: Ping, traceroute, DNS, WHOIS, and SSL certificate analysis</li>
 <li class=""><strong>Beautiful Terminal Interface</strong>: Powered by Bubble Tea framework for responsive, intuitive navigation</li>
 <li class=""><strong>Cross-Platform Support</strong>: Works seamlessly on Windows, macOS, and Linux</li>
 <li class=""><strong>Extensible Plugin System</strong>: Clean architecture allowing easy extension and customization</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-user-interface">🎨 User Interface<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#-user-interface" class="hash-link" aria-label="Direct link to 🎨 User Interface" title="Direct link to 🎨 User Interface" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-user-interface">🎨 User Interface<a href="https://nettracex.net/blog/release-v1-0-0#-user-interface" class="hash-link" aria-label="Direct link to 🎨 User Interface" title="Direct link to 🎨 User Interface" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Interactive Mode</strong>: Real-time network monitoring with keyboard navigation</li>
 <li class=""><strong>Responsive Design</strong>: Adapts to different terminal sizes and emulators</li>
 <li class=""><strong>Dark/Light Themes</strong>: Automatic theme switching based on system preferences</li>
 <li class=""><strong>Export Functionality</strong>: Results in JSON, CSV, and text formats</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-developer-experience">🔧 Developer Experience<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#-developer-experience" class="hash-link" aria-label="Direct link to 🔧 Developer Experience" title="Direct link to 🔧 Developer Experience" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-developer-experience">🔧 Developer Experience<a href="https://nettracex.net/blog/release-v1-0-0#-developer-experience" class="hash-link" aria-label="Direct link to 🔧 Developer Experience" title="Direct link to 🔧 Developer Experience" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Clean Architecture</strong>: SOLID principles with clear separation of concerns</li>
 <li class=""><strong>Comprehensive Testing</strong>: 100% test coverage for all core components</li>
 <li class=""><strong>Plugin API</strong>: Easy-to-use interfaces for custom diagnostic tools</li>
 <li class=""><strong>Configuration System</strong>: Hierarchical configuration with file, environment, and default values</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-install">Quick Install<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#quick-install" class="hash-link" aria-label="Direct link to Quick Install" title="Direct link to Quick Install" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://nettracex.net/blog/release-v1-0-0#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-install">Quick Install<a href="https://nettracex.net/blog/release-v1-0-0#quick-install" class="hash-link" aria-label="Direct link to Quick Install" title="Direct link to Quick Install" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Using Go install</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">go install github.com/nettracex/nettracex-tui@latest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Or build from source</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/nettracex/nettracex-tui-tui.git</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd nettracex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">go build -o bin/nettracex ./cmd/nettracex</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="package-managers">Package Managers<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#package-managers" class="hash-link" aria-label="Direct link to Package Managers" title="Direct link to Package Managers" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="package-managers">Package Managers<a href="https://nettracex.net/blog/release-v1-0-0#package-managers" class="hash-link" aria-label="Direct link to Package Managers" title="Direct link to Package Managers" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Homebrew (macOS)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">brew install nettracex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Chocolatey (Windows)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">choco install nettracex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Snap (Linux)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sudo snap install nettracex</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-included">What's Included<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#whats-included" class="hash-link" aria-label="Direct link to What's Included" title="Direct link to What's Included" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="network-diagnostic-tools">Network Diagnostic Tools<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#network-diagnostic-tools" class="hash-link" aria-label="Direct link to Network Diagnostic Tools" title="Direct link to Network Diagnostic Tools" translate="no">​</a></h3>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ping-tool">Ping Tool<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#ping-tool" class="hash-link" aria-label="Direct link to Ping Tool" title="Direct link to Ping Tool" translate="no">​</a></h4>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-included">What's Included<a href="https://nettracex.net/blog/release-v1-0-0#whats-included" class="hash-link" aria-label="Direct link to What's Included" title="Direct link to What's Included" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="network-diagnostic-tools">Network Diagnostic Tools<a href="https://nettracex.net/blog/release-v1-0-0#network-diagnostic-tools" class="hash-link" aria-label="Direct link to Network Diagnostic Tools" title="Direct link to Network Diagnostic Tools" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ping-tool">Ping Tool<a href="https://nettracex.net/blog/release-v1-0-0#ping-tool" class="hash-link" aria-label="Direct link to Ping Tool" title="Direct link to Ping Tool" translate="no">​</a></h4>
 <ul>
 <li class="">Configurable packet count and interval</li>
 <li class="">Custom packet sizes and TTL</li>
@@ -51,7 +51,7 @@
 <li class="">Support for both IPv4 and IPv6</li>
 </ul>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping --count 10 --interval 1s google.com</span><br></span></code></pre></div></div>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="traceroute-tool">Traceroute Tool<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#traceroute-tool" class="hash-link" aria-label="Direct link to Traceroute Tool" title="Direct link to Traceroute Tool" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="traceroute-tool">Traceroute Tool<a href="https://nettracex.net/blog/release-v1-0-0#traceroute-tool" class="hash-link" aria-label="Direct link to Traceroute Tool" title="Direct link to Traceroute Tool" translate="no">​</a></h4>
 <ul>
 <li class="">Multiple protocols (UDP, TCP, ICMP)</li>
 <li class="">Configurable hop limits and timeouts</li>
@@ -59,7 +59,7 @@
 <li class="">IPv4 and IPv6 support</li>
 </ul>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex traceroute --max-hops 20 --protocol udp github.com</span><br></span></code></pre></div></div>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-tool">DNS Tool<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#dns-tool" class="hash-link" aria-label="Direct link to DNS Tool" title="Direct link to DNS Tool" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-tool">DNS Tool<a href="https://nettracex.net/blog/release-v1-0-0#dns-tool" class="hash-link" aria-label="Direct link to DNS Tool" title="Direct link to DNS Tool" translate="no">​</a></h4>
 <ul>
 <li class="">Multiple record types (A, AAAA, MX, TXT, etc.)</li>
 <li class="">Custom DNS servers</li>
@@ -67,7 +67,7 @@
 <li class="">Batch DNS lookups</li>
 </ul>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --types A,AAAA,MX google.com</span><br></span></code></pre></div></div>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="whois-tool">WHOIS Tool<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#whois-tool" class="hash-link" aria-label="Direct link to WHOIS Tool" title="Direct link to WHOIS Tool" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="whois-tool">WHOIS Tool<a href="https://nettracex.net/blog/release-v1-0-0#whois-tool" class="hash-link" aria-label="Direct link to WHOIS Tool" title="Direct link to WHOIS Tool" translate="no">​</a></h4>
 <ul>
 <li class="">Multiple WHOIS servers</li>
 <li class="">Domain registration information</li>
@@ -75,7 +75,7 @@
 <li class="">Raw WHOIS data export</li>
 </ul>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex whois --server whois.iana.org google.com</span><br></span></code></pre></div></div>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ssl-certificate-tool">SSL Certificate Tool<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#ssl-certificate-tool" class="hash-link" aria-label="Direct link to SSL Certificate Tool" title="Direct link to SSL Certificate Tool" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ssl-certificate-tool">SSL Certificate Tool<a href="https://nettracex.net/blog/release-v1-0-0#ssl-certificate-tool" class="hash-link" aria-label="Direct link to SSL Certificate Tool" title="Direct link to SSL Certificate Tool" translate="no">​</a></h4>
 <ul>
 <li class="">Certificate validation and analysis</li>
 <li class="">Certificate chain verification</li>
@@ -83,7 +83,7 @@
 <li class="">Multiple port support</li>
 </ul>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl --port 443 --check-expiry github.com</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="configuration-system">Configuration System<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#configuration-system" class="hash-link" aria-label="Direct link to Configuration System" title="Direct link to Configuration System" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="configuration-system">Configuration System<a href="https://nettracex.net/blog/release-v1-0-0#configuration-system" class="hash-link" aria-label="Direct link to Configuration System" title="Direct link to Configuration System" translate="no">​</a></h3>
 <p>NetTraceX uses a hierarchical configuration system:</p>
 <ol>
 <li class=""><strong>Default values</strong> (built-in)</li>
@@ -92,23 +92,23 @@
 </ol>
 <p>Example configuration:</p>
 <div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">network</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">timeout</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 30s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">dns_servers</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"8.8.8.8"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"1.1.1.1"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">ui</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">theme</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"auto"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">animations</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">enabled</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean important" style="color:#36acaa">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">plugins</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">enabled</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ping"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"traceroute"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"dns"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"whois"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ssl"</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-improvements">Performance Improvements<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#performance-improvements" class="hash-link" aria-label="Direct link to Performance Improvements" title="Direct link to Performance Improvements" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="speed-optimizations">Speed Optimizations<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#speed-optimizations" class="hash-link" aria-label="Direct link to Speed Optimizations" title="Direct link to Speed Optimizations" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-improvements">Performance Improvements<a href="https://nettracex.net/blog/release-v1-0-0#performance-improvements" class="hash-link" aria-label="Direct link to Performance Improvements" title="Direct link to Performance Improvements" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="speed-optimizations">Speed Optimizations<a href="https://nettracex.net/blog/release-v1-0-0#speed-optimizations" class="hash-link" aria-label="Direct link to Speed Optimizations" title="Direct link to Speed Optimizations" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Concurrent Operations</strong>: Parallel network requests for faster results</li>
 <li class=""><strong>Connection Pooling</strong>: Reuse network connections for efficiency</li>
 <li class=""><strong>Caching</strong>: Smart caching of DNS and WHOIS results</li>
 <li class=""><strong>Memory Management</strong>: Efficient memory usage with proper cleanup</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="reliability-enhancements">Reliability Enhancements<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#reliability-enhancements" class="hash-link" aria-label="Direct link to Reliability Enhancements" title="Direct link to Reliability Enhancements" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="reliability-enhancements">Reliability Enhancements<a href="https://nettracex.net/blog/release-v1-0-0#reliability-enhancements" class="hash-link" aria-label="Direct link to Reliability Enhancements" title="Direct link to Reliability Enhancements" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Error Handling</strong>: Comprehensive error handling and recovery</li>
 <li class=""><strong>Timeout Management</strong>: Configurable timeouts for all operations</li>
 <li class=""><strong>Retry Logic</strong>: Automatic retry with exponential backoff</li>
 <li class=""><strong>Graceful Degradation</strong>: Fallback options when services are unavailable</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation">Documentation<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="complete-documentation">Complete Documentation<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#complete-documentation" class="hash-link" aria-label="Direct link to Complete Documentation" title="Direct link to Complete Documentation" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation">Documentation<a href="https://nettracex.net/blog/release-v1-0-0#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="complete-documentation">Complete Documentation<a href="https://nettracex.net/blog/release-v1-0-0#complete-documentation" class="hash-link" aria-label="Direct link to Complete Documentation" title="Direct link to Complete Documentation" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Getting Started Guide</strong>: Quick setup and first steps</li>
 <li class=""><strong>Installation Instructions</strong>: Detailed installation for all platforms</li>
@@ -116,22 +116,22 @@
 <li class=""><strong>API Documentation</strong>: Full API reference with examples</li>
 <li class=""><strong>Tutorials</strong>: Step-by-step guides for common use cases</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="developer-resources">Developer Resources<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#developer-resources" class="hash-link" aria-label="Direct link to Developer Resources" title="Direct link to Developer Resources" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="developer-resources">Developer Resources<a href="https://nettracex.net/blog/release-v1-0-0#developer-resources" class="hash-link" aria-label="Direct link to Developer Resources" title="Direct link to Developer Resources" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Contributing Guide</strong>: How to contribute to the project</li>
 <li class=""><strong>Plugin Development</strong>: Creating custom diagnostic tools</li>
 <li class=""><strong>Architecture Overview</strong>: Understanding the codebase</li>
 <li class=""><strong>Testing Guide</strong>: Running and writing tests</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="community">Community<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#community" class="hash-link" aria-label="Direct link to Community" title="Direct link to Community" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-involved">Getting Involved<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#getting-involved" class="hash-link" aria-label="Direct link to Getting Involved" title="Direct link to Getting Involved" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="community">Community<a href="https://nettracex.net/blog/release-v1-0-0#community" class="hash-link" aria-label="Direct link to Community" title="Direct link to Community" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-involved">Getting Involved<a href="https://nettracex.net/blog/release-v1-0-0#getting-involved" class="hash-link" aria-label="Direct link to Getting Involved" title="Direct link to Getting Involved" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>GitHub Repository</strong>: <a href="https://github.com/nettracex/nettracex-tui" target="_blank" rel="noopener noreferrer" class="">nettracex</a></li>
 <li class=""><strong>Issue Tracker</strong>: Report bugs and request features</li>
 <li class=""><strong>Discussions</strong>: Community discussions and Q&amp;A</li>
 <li class=""><strong>Discord Server</strong>: Real-time community chat</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="contributing">Contributing<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#contributing" class="hash-link" aria-label="Direct link to Contributing" title="Direct link to Contributing" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="contributing">Contributing<a href="https://nettracex.net/blog/release-v1-0-0#contributing" class="hash-link" aria-label="Direct link to Contributing" title="Direct link to Contributing" translate="no">​</a></h3>
 <p>We welcome contributions from the community! Here's how you can help:</p>
 <ul>
 <li class=""><strong>Report Issues</strong>: Found a bug? Let us know!</li>
@@ -140,8 +140,8 @@
 <li class=""><strong>Improve Documentation</strong>: Help others by improving docs</li>
 <li class=""><strong>Share Feedback</strong>: Your input helps us improve</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's Next<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#whats-next" class="hash-link" aria-label="Direct link to What's Next" title="Direct link to What's Next" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="upcoming-features">Upcoming Features<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#upcoming-features" class="hash-link" aria-label="Direct link to Upcoming Features" title="Direct link to Upcoming Features" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's Next<a href="https://nettracex.net/blog/release-v1-0-0#whats-next" class="hash-link" aria-label="Direct link to What's Next" title="Direct link to What's Next" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="upcoming-features">Upcoming Features<a href="https://nettracex.net/blog/release-v1-0-0#upcoming-features" class="hash-link" aria-label="Direct link to Upcoming Features" title="Direct link to Upcoming Features" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Plugin Marketplace</strong>: Community-contributed diagnostic tools</li>
 <li class=""><strong>Advanced Analytics</strong>: Network performance metrics and trends</li>
@@ -149,13 +149,13 @@
 <li class=""><strong>Cloud Sync</strong>: Configuration and result synchronization</li>
 <li class=""><strong>Mobile App</strong>: Companion mobile application</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="roadmap">Roadmap<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#roadmap" class="hash-link" aria-label="Direct link to Roadmap" title="Direct link to Roadmap" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="roadmap">Roadmap<a href="https://nettracex.net/blog/release-v1-0-0#roadmap" class="hash-link" aria-label="Direct link to Roadmap" title="Direct link to Roadmap" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>v1.1.0</strong>: Plugin marketplace and advanced analytics</li>
 <li class=""><strong>v1.2.0</strong>: Integration APIs and cloud sync</li>
 <li class=""><strong>v2.0.0</strong>: Mobile app and advanced UI features</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank You<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank You<a href="https://nettracex.net/blog/release-v1-0-0#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You" translate="no">​</a></h2>
 <p>A huge thank you to everyone who has contributed to NetTraceX:</p>
 <ul>
 <li class=""><strong>Core Team</strong>: For the countless hours of development and testing</li>
@@ -163,18 +163,18 @@
 <li class=""><strong>Community</strong>: For suggestions, discussions, and contributions</li>
 <li class=""><strong>Contributors</strong>: For code, documentation, and design contributions</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-and-get-started">Download and Get Started<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#download-and-get-started" class="hash-link" aria-label="Direct link to Download and Get Started" title="Direct link to Download and Get Started" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="download-and-get-started">Download and Get Started<a href="https://nettracex.net/blog/release-v1-0-0#download-and-get-started" class="hash-link" aria-label="Direct link to Download and Get Started" title="Direct link to Download and Get Started" translate="no">​</a></h2>
 <p>Ready to try NetTraceX? Here's how to get started:</p>
 <ol>
 <li class=""><strong>Download</strong>: <a href="https://github.com/nettracex/nettracex-tui/releases/latest" target="_blank" rel="noopener noreferrer" class="">Latest release</a></li>
-<li class=""><strong>Install</strong>: Follow our <a class="" href="https://nettracex-tui.github.io/docs/installation">installation guide</a></li>
-<li class=""><strong>Configure</strong>: Set up your <a class="" href="https://nettracex-tui.github.io/docs/configuration">configuration</a></li>
-<li class=""><strong>Start</strong>: Run your first <a class="" href="https://nettracex-tui.github.io/docs/guides/quick-start">network diagnostic</a></li>
+<li class=""><strong>Install</strong>: Follow our <a class="" href="https://nettracex.net/docs/installation">installation guide</a></li>
+<li class=""><strong>Configure</strong>: Set up your <a class="" href="https://nettracex.net/docs/configuration">configuration</a></li>
+<li class=""><strong>Start</strong>: Run your first <a class="" href="https://nettracex.net/docs/guides/quick-start">network diagnostic</a></li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="support">Support<a href="https://nettracex-tui.github.io/blog/release-v1-0-0#support" class="hash-link" aria-label="Direct link to Support" title="Direct link to Support" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="support">Support<a href="https://nettracex.net/blog/release-v1-0-0#support" class="hash-link" aria-label="Direct link to Support" title="Direct link to Support" translate="no">​</a></h2>
 <p>Need help? We're here for you:</p>
 <ul>
-<li class=""><strong>Documentation</strong>: <a class="" href="https://nettracex-tui.github.io/docs/intro">Complete docs</a></li>
+<li class=""><strong>Documentation</strong>: <a class="" href="https://nettracex.net/docs/intro">Complete docs</a></li>
 <li class=""><strong>GitHub Issues</strong>: <a href="https://github.com/nettracex/nettracex-tui/issues" target="_blank" rel="noopener noreferrer" class="">Report issues</a></li>
 <li class=""><strong>Discord</strong>: <a href="https://discord.gg/nettracex" target="_blank" rel="noopener noreferrer" class="">Join our community</a></li>
 <li class=""><strong>Email</strong>: <a href="mailto:support@nettracex.com" target="_blank" rel="noopener noreferrer" class="">Contact us</a></li>
@@ -192,13 +192,13 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Network Troubleshooting with NetTraceX]]></title>
-        <id>https://nettracex-tui.github.io/blog/network-troubleshooting-guide</id>
-        <link href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide"/>
+        <id>https://nettracex.net/blog/network-troubleshooting-guide</id>
+        <link href="https://nettracex.net/blog/network-troubleshooting-guide"/>
         <updated>2024-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Network issues can be frustrating, but with the right tools and approach, you can quickly identify and resolve problems. In this guide, we'll walk through common network troubleshooting scenarios using NetTraceX.]]></summary>
         <content type="html"><![CDATA[<p>Network issues can be frustrating, but with the right tools and approach, you can quickly identify and resolve problems. In this guide, we'll walk through common network troubleshooting scenarios using NetTraceX.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-network-issues">Common Network Issues<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#common-network-issues" class="hash-link" aria-label="Direct link to Common Network Issues" title="Direct link to Common Network Issues" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-connectivity-problems">1. Connectivity Problems<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#1-connectivity-problems" class="hash-link" aria-label="Direct link to 1. Connectivity Problems" title="Direct link to 1. Connectivity Problems" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-network-issues">Common Network Issues<a href="https://nettracex.net/blog/network-troubleshooting-guide#common-network-issues" class="hash-link" aria-label="Direct link to Common Network Issues" title="Direct link to Common Network Issues" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-connectivity-problems">1. Connectivity Problems<a href="https://nettracex.net/blog/network-troubleshooting-guide#1-connectivity-problems" class="hash-link" aria-label="Direct link to 1. Connectivity Problems" title="Direct link to 1. Connectivity Problems" translate="no">​</a></h3>
 <p><strong>Symptoms</strong>: Can't reach websites, slow loading, timeouts</p>
 <p><strong>Diagnosis Steps</strong>:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># 1. Test basic connectivity</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 2. Check DNS resolution</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 3. Trace the network path</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex traceroute google.com</span><br></span></code></pre></div></div>
@@ -208,7 +208,7 @@
 <li class="">DNS resolution failures</li>
 <li class="">Hops timing out in traceroute</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-ssl-certificate-issues">2. SSL Certificate Issues<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#2-ssl-certificate-issues" class="hash-link" aria-label="Direct link to 2. SSL Certificate Issues" title="Direct link to 2. SSL Certificate Issues" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-ssl-certificate-issues">2. SSL Certificate Issues<a href="https://nettracex.net/blog/network-troubleshooting-guide#2-ssl-certificate-issues" class="hash-link" aria-label="Direct link to 2. SSL Certificate Issues" title="Direct link to 2. SSL Certificate Issues" translate="no">​</a></h3>
 <p><strong>Symptoms</strong>: Browser warnings, certificate errors, HTTPS failures</p>
 <p><strong>Diagnosis Steps</strong>:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Check SSL certificate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Check certificate chain</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl --check-chain github.com</span><br></span></code></pre></div></div>
@@ -218,7 +218,7 @@
 <li class="">Invalid certificate chains</li>
 <li class="">Mismatched hostnames</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-dns-problems">3. DNS Problems<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#3-dns-problems" class="hash-link" aria-label="Direct link to 3. DNS Problems" title="Direct link to 3. DNS Problems" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-dns-problems">3. DNS Problems<a href="https://nettracex.net/blog/network-troubleshooting-guide#3-dns-problems" class="hash-link" aria-label="Direct link to 3. DNS Problems" title="Direct link to 3. DNS Problems" translate="no">​</a></h3>
 <p><strong>Symptoms</strong>: Can't resolve domain names, slow DNS lookups</p>
 <p><strong>Diagnosis Steps</strong>:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Test different record types</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --types A,AAAA,MX,TXT google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Test with different DNS servers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --server 8.8.8.8 google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --server 1.1.1.1 google.com</span><br></span></code></pre></div></div>
@@ -228,8 +228,8 @@
 <li class="">Inconsistent DNS responses</li>
 <li class="">Slow DNS resolution times</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting-workflow">Troubleshooting Workflow<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#troubleshooting-workflow" class="hash-link" aria-label="Direct link to Troubleshooting Workflow" title="Direct link to Troubleshooting Workflow" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-basic-connectivity-test">Step 1: Basic Connectivity Test<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#step-1-basic-connectivity-test" class="hash-link" aria-label="Direct link to Step 1: Basic Connectivity Test" title="Direct link to Step 1: Basic Connectivity Test" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="troubleshooting-workflow">Troubleshooting Workflow<a href="https://nettracex.net/blog/network-troubleshooting-guide#troubleshooting-workflow" class="hash-link" aria-label="Direct link to Troubleshooting Workflow" title="Direct link to Troubleshooting Workflow" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-basic-connectivity-test">Step 1: Basic Connectivity Test<a href="https://nettracex.net/blog/network-troubleshooting-guide#step-1-basic-connectivity-test" class="hash-link" aria-label="Direct link to Step 1: Basic Connectivity Test" title="Direct link to Step 1: Basic Connectivity Test" translate="no">​</a></h3>
 <p>Start with a simple ping to establish basic connectivity:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping --count 10 --interval 1s google.com</span><br></span></code></pre></div></div>
 <p><strong>Expected Results</strong>:</p>
@@ -238,7 +238,7 @@
 <li class="">No packet loss</li>
 <li class="">Consistent response times</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-dns-resolution-check">Step 2: DNS Resolution Check<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#step-2-dns-resolution-check" class="hash-link" aria-label="Direct link to Step 2: DNS Resolution Check" title="Direct link to Step 2: DNS Resolution Check" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-dns-resolution-check">Step 2: DNS Resolution Check<a href="https://nettracex.net/blog/network-troubleshooting-guide#step-2-dns-resolution-check" class="hash-link" aria-label="Direct link to Step 2: DNS Resolution Check" title="Direct link to Step 2: DNS Resolution Check" translate="no">​</a></h3>
 <p>Verify that domain names are resolving correctly:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns google.com</span><br></span></code></pre></div></div>
 <p><strong>Expected Results</strong>:</p>
@@ -247,7 +247,7 @@
 <li class="">Fast resolution time</li>
 <li class="">Consistent results</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-network-path-analysis">Step 3: Network Path Analysis<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#step-3-network-path-analysis" class="hash-link" aria-label="Direct link to Step 3: Network Path Analysis" title="Direct link to Step 3: Network Path Analysis" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-network-path-analysis">Step 3: Network Path Analysis<a href="https://nettracex.net/blog/network-troubleshooting-guide#step-3-network-path-analysis" class="hash-link" aria-label="Direct link to Step 3: Network Path Analysis" title="Direct link to Step 3: Network Path Analysis" translate="no">​</a></h3>
 <p>Trace the network path to identify bottlenecks:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex traceroute --max-hops 20 google.com</span><br></span></code></pre></div></div>
 <p><strong>What to Look For</strong>:</p>
@@ -256,7 +256,7 @@
 <li class="">Timeouts or packet loss</li>
 <li class="">Unusual routing paths</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-ssl-certificate-verification">Step 4: SSL Certificate Verification<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#step-4-ssl-certificate-verification" class="hash-link" aria-label="Direct link to Step 4: SSL Certificate Verification" title="Direct link to Step 4: SSL Certificate Verification" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-ssl-certificate-verification">Step 4: SSL Certificate Verification<a href="https://nettracex.net/blog/network-troubleshooting-guide#step-4-ssl-certificate-verification" class="hash-link" aria-label="Direct link to Step 4: SSL Certificate Verification" title="Direct link to Step 4: SSL Certificate Verification" translate="no">​</a></h3>
 <p>For HTTPS issues, check SSL certificates:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl google.com</span><br></span></code></pre></div></div>
 <p><strong>What to Look For</strong>:</p>
@@ -265,8 +265,8 @@
 <li class="">Proper certificate chain</li>
 <li class="">Correct hostname</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="advanced-troubleshooting">Advanced Troubleshooting<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#advanced-troubleshooting" class="hash-link" aria-label="Direct link to Advanced Troubleshooting" title="Direct link to Advanced Troubleshooting" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="using-interactive-mode">Using Interactive Mode<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#using-interactive-mode" class="hash-link" aria-label="Direct link to Using Interactive Mode" title="Direct link to Using Interactive Mode" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="advanced-troubleshooting">Advanced Troubleshooting<a href="https://nettracex.net/blog/network-troubleshooting-guide#advanced-troubleshooting" class="hash-link" aria-label="Direct link to Advanced Troubleshooting" title="Direct link to Advanced Troubleshooting" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="using-interactive-mode">Using Interactive Mode<a href="https://nettracex.net/blog/network-troubleshooting-guide#using-interactive-mode" class="hash-link" aria-label="Direct link to Using Interactive Mode" title="Direct link to Using Interactive Mode" translate="no">​</a></h3>
 <p>For continuous monitoring, use interactive mode:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex interactive</span><br></span></code></pre></div></div>
 <p><strong>Benefits</strong>:</p>
@@ -276,16 +276,16 @@
 <li class="">Easy switching between hosts</li>
 <li class="">Export results in various formats</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="custom-configuration">Custom Configuration<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#custom-configuration" class="hash-link" aria-label="Direct link to Custom Configuration" title="Direct link to Custom Configuration" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="custom-configuration">Custom Configuration<a href="https://nettracex.net/blog/network-troubleshooting-guide#custom-configuration" class="hash-link" aria-label="Direct link to Custom Configuration" title="Direct link to Custom Configuration" translate="no">​</a></h3>
 <p>Create a troubleshooting configuration:</p>
 <div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># config/troubleshooting.yaml</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">network</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">timeout</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 30s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">retry_count</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">dns_servers</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"8.8.8.8"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"1.1.1.1"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"1.0.0.1"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">plugins</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">ping</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">count</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">interval</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 1s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">timeout</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 5s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">traceroute</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">max_hops</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">30</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">timeout</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 5s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">dns</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">timeout</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> 10s</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token key atrule" style="color:#00a4db">retry_count</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><br></span></code></pre></div></div>
 <p>Run with custom configuration:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nettracex --config config/troubleshooting.yaml</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="batch-operations">Batch Operations<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#batch-operations" class="hash-link" aria-label="Direct link to Batch Operations" title="Direct link to Batch Operations" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="batch-operations">Batch Operations<a href="https://nettracex.net/blog/network-troubleshooting-guide#batch-operations" class="hash-link" aria-label="Direct link to Batch Operations" title="Direct link to Batch Operations" translate="no">​</a></h3>
 <p>Test multiple hosts simultaneously:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Create a host list</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo "google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">github.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">stackoverflow.com" &gt; hosts.txt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Test all hosts</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">for host in $(cat hosts.txt); do</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  echo "Testing $host"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  nettracex ping $host</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  nettracex dns $host</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">done</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-solutions">Common Solutions<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#common-solutions" class="hash-link" aria-label="Direct link to Common Solutions" title="Direct link to Common Solutions" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-issues">DNS Issues<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#dns-issues" class="hash-link" aria-label="Direct link to DNS Issues" title="Direct link to DNS Issues" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-solutions">Common Solutions<a href="https://nettracex.net/blog/network-troubleshooting-guide#common-solutions" class="hash-link" aria-label="Direct link to Common Solutions" title="Direct link to Common Solutions" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dns-issues">DNS Issues<a href="https://nettracex.net/blog/network-troubleshooting-guide#dns-issues" class="hash-link" aria-label="Direct link to DNS Issues" title="Direct link to DNS Issues" translate="no">​</a></h3>
 <p><strong>Problem</strong>: Slow or failed DNS resolution</p>
 <p><strong>Solutions</strong>:</p>
 <ol>
@@ -294,7 +294,7 @@
 <li class="">Check DNS server configuration</li>
 </ol>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Test with different DNS servers</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --server 8.8.8.8 google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns --server 1.1.1.1 google.com</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="high-latency">High Latency<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#high-latency" class="hash-link" aria-label="Direct link to High Latency" title="Direct link to High Latency" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="high-latency">High Latency<a href="https://nettracex.net/blog/network-troubleshooting-guide#high-latency" class="hash-link" aria-label="Direct link to High Latency" title="Direct link to High Latency" translate="no">​</a></h3>
 <p><strong>Problem</strong>: Slow network performance</p>
 <p><strong>Solutions</strong>:</p>
 <ol>
@@ -303,7 +303,7 @@
 <li class="">Test with different protocols</li>
 </ol>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Test with different packet sizes</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping --packet-size 56 google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping --packet-size 1500 google.com</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ssl-certificate-issues">SSL Certificate Issues<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#ssl-certificate-issues" class="hash-link" aria-label="Direct link to SSL Certificate Issues" title="Direct link to SSL Certificate Issues" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ssl-certificate-issues">SSL Certificate Issues<a href="https://nettracex.net/blog/network-troubleshooting-guide#ssl-certificate-issues" class="hash-link" aria-label="Direct link to SSL Certificate Issues" title="Direct link to SSL Certificate Issues" translate="no">​</a></h3>
 <p><strong>Problem</strong>: Certificate errors or warnings</p>
 <p><strong>Solutions</strong>:</p>
 <ol>
@@ -312,17 +312,17 @@
 <li class="">Check hostname matching</li>
 </ol>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Check certificate details</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl --check-expiry google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl --check-chain google.com</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-practices">Best Practices<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-regular-monitoring">1. Regular Monitoring<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#1-regular-monitoring" class="hash-link" aria-label="Direct link to 1. Regular Monitoring" title="Direct link to 1. Regular Monitoring" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-practices">Best Practices<a href="https://nettracex.net/blog/network-troubleshooting-guide#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-regular-monitoring">1. Regular Monitoring<a href="https://nettracex.net/blog/network-troubleshooting-guide#1-regular-monitoring" class="hash-link" aria-label="Direct link to 1. Regular Monitoring" title="Direct link to 1. Regular Monitoring" translate="no">​</a></h3>
 <p>Set up regular network monitoring:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Create a monitoring script</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#!/bin/bash</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ssl google.com</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-documentation">2. Documentation<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#2-documentation" class="hash-link" aria-label="Direct link to 2. Documentation" title="Direct link to 2. Documentation" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-documentation">2. Documentation<a href="https://nettracex.net/blog/network-troubleshooting-guide#2-documentation" class="hash-link" aria-label="Direct link to 2. Documentation" title="Direct link to 2. Documentation" translate="no">​</a></h3>
 <p>Keep records of network performance:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Export results for documentation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping google.com --export json --output ping-results.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns google.com --export csv --output dns-results.csv</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-automation">3. Automation<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#3-automation" class="hash-link" aria-label="Direct link to 3. Automation" title="Direct link to 3. Automation" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-automation">3. Automation<a href="https://nettracex.net/blog/network-troubleshooting-guide#3-automation" class="hash-link" aria-label="Direct link to 3. Automation" title="Direct link to 3. Automation" translate="no">​</a></h3>
 <p>Automate routine checks:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Add to cron for regular checks</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">0 */6 * * * /path/to/nettracex ping google.com</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nettracex-tui.github.io/blog/network-troubleshooting-guide#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://nettracex.net/blog/network-troubleshooting-guide#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
 <p>NetTraceX provides powerful tools for network troubleshooting. By following a systematic approach and using the right tools for each scenario, you can quickly identify and resolve network issues.</p>
 <p>Remember:</p>
 <ul>
@@ -331,7 +331,7 @@
 <li class="">Document your findings</li>
 <li class="">Monitor regularly for proactive maintenance</li>
 </ul>
-<p>For more advanced features and configuration options, check out our <a class="" href="https://nettracex-tui.github.io/docs/intro">complete documentation</a>.</p>
+<p>For more advanced features and configuration options, check out our <a class="" href="https://nettracex.net/docs/intro">complete documentation</a>.</p>
 <hr>
 <p><em>Have questions or need help? Join our <a href="https://discord.gg/nettracex" target="_blank" rel="noopener noreferrer" class="">Discord community</a> or open an issue on <a href="https://github.com/nettracex/nettracex-tui/issues" target="_blank" rel="noopener noreferrer" class="">GitHub</a>.</em></p>]]></content>
         <author>
@@ -344,15 +344,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome to NetTraceX]]></title>
-        <id>https://nettracex-tui.github.io/blog/welcome-to-nettracex</id>
-        <link href="https://nettracex-tui.github.io/blog/welcome-to-nettracex"/>
+        <id>https://nettracex.net/blog/welcome-to-nettracex</id>
+        <link href="https://nettracex.net/blog/welcome-to-nettracex"/>
         <updated>2024-01-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We're excited to announce the launch of NetTraceX, a comprehensive network diagnostic toolkit built with Go, featuring a beautiful terminal user interface powered by the Bubble Tea framework.]]></summary>
         <content type="html"><![CDATA[<p>We're excited to announce the launch of <strong>NetTraceX</strong>, a comprehensive network diagnostic toolkit built with Go, featuring a beautiful terminal user interface powered by the Bubble Tea framework.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-nettracex">What is NetTraceX?<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#what-is-nettracex" class="hash-link" aria-label="Direct link to What is NetTraceX?" title="Direct link to What is NetTraceX?" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-nettracex">What is NetTraceX?<a href="https://nettracex.net/blog/welcome-to-nettracex#what-is-nettracex" class="hash-link" aria-label="Direct link to What is NetTraceX?" title="Direct link to What is NetTraceX?" translate="no">​</a></h2>
 <p>NetTraceX is a modern network diagnostic tool that combines the power of traditional command-line network utilities with an intuitive terminal user interface. Built with clean architecture principles and extensive testing, it provides a unified experience for network troubleshooting and analysis.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-features">Key Features<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-comprehensive-network-tools">🌐 Comprehensive Network Tools<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#-comprehensive-network-tools" class="hash-link" aria-label="Direct link to 🌐 Comprehensive Network Tools" title="Direct link to 🌐 Comprehensive Network Tools" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-features">Key Features<a href="https://nettracex.net/blog/welcome-to-nettracex#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-comprehensive-network-tools">🌐 Comprehensive Network Tools<a href="https://nettracex.net/blog/welcome-to-nettracex#-comprehensive-network-tools" class="hash-link" aria-label="Direct link to 🌐 Comprehensive Network Tools" title="Direct link to 🌐 Comprehensive Network Tools" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Ping</strong>: Test network connectivity with customizable parameters</li>
 <li class=""><strong>Traceroute</strong>: Trace network paths with multiple protocols</li>
@@ -360,7 +360,7 @@
 <li class=""><strong>WHOIS</strong>: Look up domain registration information</li>
 <li class=""><strong>SSL Certificate Analysis</strong>: Check SSL certificates and chains</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-beautiful-terminal-interface">🎨 Beautiful Terminal Interface<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#-beautiful-terminal-interface" class="hash-link" aria-label="Direct link to 🎨 Beautiful Terminal Interface" title="Direct link to 🎨 Beautiful Terminal Interface" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-beautiful-terminal-interface">🎨 Beautiful Terminal Interface<a href="https://nettracex.net/blog/welcome-to-nettracex#-beautiful-terminal-interface" class="hash-link" aria-label="Direct link to 🎨 Beautiful Terminal Interface" title="Direct link to 🎨 Beautiful Terminal Interface" translate="no">​</a></h3>
 <p>Powered by the Bubble Tea framework, NetTraceX provides:</p>
 <ul>
 <li class="">Intuitive keyboard navigation</li>
@@ -368,19 +368,19 @@
 <li class="">Responsive design for different terminal sizes</li>
 <li class="">Cross-platform compatibility (Windows, macOS, Linux)</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-extensible-plugin-system">🔧 Extensible Plugin System<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#-extensible-plugin-system" class="hash-link" aria-label="Direct link to 🔧 Extensible Plugin System" title="Direct link to 🔧 Extensible Plugin System" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-extensible-plugin-system">🔧 Extensible Plugin System<a href="https://nettracex.net/blog/welcome-to-nettracex#-extensible-plugin-system" class="hash-link" aria-label="Direct link to 🔧 Extensible Plugin System" title="Direct link to 🔧 Extensible Plugin System" translate="no">​</a></h3>
 <ul>
 <li class="">Clean architecture with SOLID principles</li>
 <li class="">Easy extension with custom diagnostic tools</li>
 <li class="">Plugin configuration management</li>
 <li class="">Integration with external services</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-start">Quick Start<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#quick-start" class="hash-link" aria-label="Direct link to Quick Start" title="Direct link to Quick Start" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-start">Quick Start<a href="https://nettracex.net/blog/welcome-to-nettracex#quick-start" class="hash-link" aria-label="Direct link to Quick Start" title="Direct link to Quick Start" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="installation">Installation<a href="https://nettracex.net/blog/welcome-to-nettracex#installation" class="hash-link" aria-label="Direct link to Installation" title="Direct link to Installation" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Clone the repository</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/nettracex/nettracex-tui-tui.git</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd nettracex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Build the application</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">go build -o bin/nettracex ./cmd/nettracex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Run the application</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">./bin/nettracex</span><br></span></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="basic-usage">Basic Usage<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#basic-usage" class="hash-link" aria-label="Direct link to Basic Usage" title="Direct link to Basic Usage" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="basic-usage">Basic Usage<a href="https://nettracex.net/blog/welcome-to-nettracex#basic-usage" class="hash-link" aria-label="Direct link to Basic Usage" title="Direct link to Basic Usage" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Ping a host</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex ping google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Trace route</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex traceroute github.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># DNS lookup</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex dns google.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Interactive mode</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nettracex interactive</span><br></span></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture">Architecture<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#architecture" class="hash-link" aria-label="Direct link to Architecture" title="Direct link to Architecture" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture">Architecture<a href="https://nettracex.net/blog/welcome-to-nettracex#architecture" class="hash-link" aria-label="Direct link to Architecture" title="Direct link to Architecture" translate="no">​</a></h2>
 <p>NetTraceX follows clean architecture principles with clear separation of concerns:</p>
 <ul>
 <li class=""><strong>Domain Layer</strong>: Core business logic interfaces and types</li>
@@ -388,7 +388,7 @@
 <li class=""><strong>Infrastructure Layer</strong>: Network clients and external integrations</li>
 <li class=""><strong>Presentation Layer</strong>: TUI components and user interface</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="solid-principles-implementation">SOLID Principles Implementation<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#solid-principles-implementation" class="hash-link" aria-label="Direct link to SOLID Principles Implementation" title="Direct link to SOLID Principles Implementation" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="solid-principles-implementation">SOLID Principles Implementation<a href="https://nettracex.net/blog/welcome-to-nettracex#solid-principles-implementation" class="hash-link" aria-label="Direct link to SOLID Principles Implementation" title="Direct link to SOLID Principles Implementation" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Single Responsibility</strong>: Each interface and type has a single, well-defined purpose</li>
 <li class=""><strong>Open/Closed</strong>: Plugin architecture allows extension without modification</li>
@@ -396,7 +396,7 @@
 <li class=""><strong>Interface Segregation</strong>: Small, focused interfaces for different concerns</li>
 <li class=""><strong>Dependency Inversion</strong>: High-level modules depend on abstractions</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's Next?<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's Next?<a href="https://nettracex.net/blog/welcome-to-nettracex#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?" translate="no">​</a></h2>
 <p>We have exciting plans for NetTraceX:</p>
 <ul>
 <li class=""><strong>Plugin Marketplace</strong>: Community-contributed diagnostic tools</li>
@@ -405,22 +405,22 @@
 <li class=""><strong>Cloud Sync</strong>: Configuration and result synchronization</li>
 <li class=""><strong>Mobile App</strong>: Companion mobile application for remote monitoring</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="get-involved">Get Involved<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#get-involved" class="hash-link" aria-label="Direct link to Get Involved" title="Direct link to Get Involved" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="get-involved">Get Involved<a href="https://nettracex.net/blog/welcome-to-nettracex#get-involved" class="hash-link" aria-label="Direct link to Get Involved" title="Direct link to Get Involved" translate="no">​</a></h2>
 <p>We welcome contributions from the community! Here's how you can get involved:</p>
 <ul>
 <li class=""><strong>Report Issues</strong>: Found a bug? Let us know on <a href="https://github.com/nettracex/nettracex-tui/issues" target="_blank" rel="noopener noreferrer" class="">GitHub Issues</a></li>
 <li class=""><strong>Request Features</strong>: Have an idea? Submit a feature request</li>
-<li class=""><strong>Contribute Code</strong>: Check out our <a class="" href="https://nettracex-tui.github.io/docs/guides/contributing">Contributing Guide</a></li>
+<li class=""><strong>Contribute Code</strong>: Check out our <a class="" href="https://nettracex.net/docs/guides/contributing">Contributing Guide</a></li>
 <li class=""><strong>Join Discussions</strong>: Participate in <a href="https://github.com/nettracex/nettracex-tui/discussions" target="_blank" rel="noopener noreferrer" class="">GitHub Discussions</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="resources">Resources<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="resources">Resources<a href="https://nettracex.net/blog/welcome-to-nettracex#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Documentation</strong>: <a class="" href="https://nettracex-tui.github.io/docs/intro">Complete documentation</a></li>
+<li class=""><strong>Documentation</strong>: <a class="" href="https://nettracex.net/docs/intro">Complete documentation</a></li>
 <li class=""><strong>GitHub Repository</strong>: <a href="https://github.com/nettracex/nettracex-tui" target="_blank" rel="noopener noreferrer" class="">nettracex</a></li>
 <li class=""><strong>Discord Community</strong>: <a href="https://discord.gg/nettracex" target="_blank" rel="noopener noreferrer" class="">Join our Discord</a></li>
 <li class=""><strong>Twitter</strong>: <a href="https://twitter.com/NetTraceXTUI" target="_blank" rel="noopener noreferrer" class="">@NetTraceXTUI</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank You<a href="https://nettracex-tui.github.io/blog/welcome-to-nettracex#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you">Thank You<a href="https://nettracex.net/blog/welcome-to-nettracex#thank-you" class="hash-link" aria-label="Direct link to Thank You" title="Direct link to Thank You" translate="no">​</a></h2>
 <p>Thank you for your interest in NetTraceX! We're excited to see how the community uses and extends this tool for network diagnostics and troubleshooting.</p>
 <p>Stay tuned for more updates, tutorials, and community highlights!</p>
 <hr>
