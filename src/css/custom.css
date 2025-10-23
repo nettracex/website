@@ -246,3 +246,17 @@
     display: none !important;
   }
 }
+/* Ensure Docusaurus mobile sidebar is scrollable and fills the viewport */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    height: 100vh !important;
+    max-height: 100vh;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    /* Optional: prevent background from scrolling when menu is open */
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+  }
+}
