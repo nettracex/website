@@ -7,9 +7,9 @@ tags: [announcement, network]
 
 # Welcome to NetTraceX! 🚀
 
-<!-- truncate -->
-
 We're excited to announce the launch of **NetTraceX**, a comprehensive network diagnostic toolkit built with Go, featuring a beautiful terminal user interface powered by the Bubble Tea framework.
+
+<!-- truncate -->
 
 ## What is NetTraceX?
 
@@ -43,7 +43,7 @@ Powered by the Bubble Tea framework, NetTraceX provides:
 
 ```bash
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Build the application

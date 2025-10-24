@@ -7,9 +7,9 @@ tags: [tutorial, network]
 
 # Network Troubleshooting with NetTraceX
 
-<!-- truncate -->
-
 Network issues can be frustrating, but with the right tools and approach, you can quickly identify and resolve problems. In this guide, we'll walk through common network troubleshooting scenarios using NetTraceX.
+
+<!-- truncate -->
 
 ## Common Network Issues
 

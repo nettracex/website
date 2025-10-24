@@ -27,7 +27,7 @@ Thank you for your interest in contributing to NetTraceX! This guide will help y
 2. **Set up the development environment**
    ```bash
    # Add upstream remote
-   git remote add upstream https://github.com/nettracex/nettracex-tui-tui.git
+   git remote add upstream https://github.com/nettracex/nettracex-tui.git
    
    # Install dependencies
    go mod download

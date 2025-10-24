@@ -29,7 +29,7 @@ This guide will help you set up a development environment for NetTraceX.
 
 ```bash
 # Clone the main repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Or clone your fork

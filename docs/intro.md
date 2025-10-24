@@ -32,7 +32,7 @@ NetTraceX is a modern network diagnostic tool that combines the power of traditi
 
 ```bash
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Download dependencies
@@ -49,7 +49,7 @@ make run
 
 ```powershell
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Download dependencies

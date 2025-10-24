@@ -19,7 +19,7 @@ This guide will help you install NetTraceX on your system.
 
 ```bash
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Download dependencies
@@ -36,7 +36,7 @@ sudo make install
 
 ```powershell
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Download dependencies

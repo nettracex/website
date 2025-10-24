@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--lg"
-            to="https://github.com/nettracex/nettracex-tui">
+            to="https://github.com/nettracex/">
             View on GitHub
           </Link>
         </div>

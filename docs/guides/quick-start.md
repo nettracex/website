@@ -17,7 +17,7 @@ Get up and running with NetTraceX in just a few minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/nettracex/nettracex-tui-tui.git
+git clone https://github.com/nettracex/nettracex-tui.git
 cd nettracex
 
 # Build the application

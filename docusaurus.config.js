@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nettracex/nettracex-tui-website/tree/main/',
+            'https://github.com/nettracex/website/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -58,7 +58,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/nettracex/nettracex-tui-website/tree/main/',
+          editUrl: 'https://github.com/nettracex/website/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'ignore',
@@ -73,7 +73,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      metadata: [
+        { name: 'og:title', content: 'NetTraceX TUI Website' },
+        { name: 'og:description', content: 'Modern network troubleshooting on the command-line.' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:url', content: 'https://nettracex.net' },
+        { name: 'og:image', content: '/img/nettracex-social-card.svg' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: '/img/nettracex-social-card.svg' },
+        { name: 'twitter:url', content: 'https://nettracex.net' },
+        { name: 'twitter:title', content: 'NetTraceX TUI Website' },
+        { name: 'twitter:description', content: 'Modern network troubleshooting on the command-line.' }
+      ],
       image: 'img/nettracex-social-card.svg',
       colorMode: {
         respectPrefersColorScheme: true,
@@ -93,7 +104,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/nettracex/nettracex-tui',
+            href: 'https://github.com/nettracex/',
             label: 'GitHub',
             position: 'right',
           },
@@ -154,7 +165,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NetTraceX. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NetTraceX.`,
       },
       prism: {
         theme: prismThemes.github,
